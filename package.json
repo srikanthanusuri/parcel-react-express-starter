@@ -6,5 +6,13 @@
   "repository": "git@github.com:srikanthanusuri/parcel-react-express-starter.git",
   "author": "Srikanth Anusuri",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2"
+  }
 }
