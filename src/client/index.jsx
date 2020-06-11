@@ -7,6 +7,7 @@ function App() {
     return (
     <div className="heading">
         <h1>Todos</h1>
+        <p>Todos go here...</p>
     </div>
     );
 }

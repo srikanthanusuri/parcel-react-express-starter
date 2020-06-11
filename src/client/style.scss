@@ -1,4 +1,29 @@
+@font-face {
+    font-family: 'Oxygen Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Oxygen/Oxygen-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxygen Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Oxygen/Oxygen-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxygen Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Oxygen/Oxygen-Bold.ttf') format('truetype');
+}
+
 .heading {
     font-size: x-large;
     text-align: center;
+}
+
+body {
+    font-family: 'Oxygen Regular';
 }
