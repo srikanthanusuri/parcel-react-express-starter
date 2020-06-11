@@ -1,0 +1,10 @@
+{
+  "name": "parcel-react-express-starter",
+  "version": "0.1.0",
+  "description": "Started application for React with Express back-end using Parcel bundler.",
+  "main": "index.js",
+  "repository": "git@github.com:srikanthanusuri/parcel-react-express-starter.git",
+  "author": "Srikanth Anusuri",
+  "license": "MIT",
+  "private": false
+}
