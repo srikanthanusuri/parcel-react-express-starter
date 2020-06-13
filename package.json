@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "lint": "eslint ./src --ext js,jsx",
     "clean": "del-cli --force dist",
     "build:server": "babel ./src/server --out-dir ./dist/server",
     "build:client": "parcel build ./src/client/index.html --out-dir ./dist/client",
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -26,6 +28,9 @@
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "del-cli": "^3.0.1",
+    "eslint": "^7.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.0",
     "parcel": "^1.12.4",
     "sass": "^1.26.8",
     "yarn-or-npm": "^3.0.1"
