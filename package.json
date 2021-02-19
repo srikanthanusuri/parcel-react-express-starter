@@ -34,5 +34,9 @@
     "parcel": "^1.12.4",
     "sass": "^1.26.8",
     "yarn-or-npm": "^3.0.1"
+  },
+  "resolutions": {
+    "**/lodash": "^4.17.19",
+    "**/node-forge": "^0.10.0"
   }
 }
